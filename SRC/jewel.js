@@ -30,11 +30,11 @@
 	Jewel.prototype.constructor = Jewel;
 
 	Jewel.preload = function(game){
-		game.load.spritesheet('jewel-blue', 'assets/img/jewel-blue.png', 32,32);
-		game.load.spritesheet('jewel-red', 'assets/img/jewel-red.png', 48,48);
-		game.load.spritesheet('jewel-yellow', 'assets/img/jewel-yellow.png', 48,46);
-		game.load.spritesheet('jewel-gray', 'assets/img/jewel-gray.png', 64,32);
-		game.load.spritesheet('jewel-purple', 'assets/img/jewel-purple.png', 64,48);
+		game.load.spritesheet('jewel-blue', 'assets/IMG/jewel-blue.png', 32,32);
+		game.load.spritesheet('jewel-red', 'assets/IMG/jewel-red.png', 48,48);
+		game.load.spritesheet('jewel-yellow', 'assets/IMG/jewel-yellow.png', 48,46);
+		game.load.spritesheet('jewel-gray', 'assets/IMG/jewel-gray.png', 64,32);
+		game.load.spritesheet('jewel-purple', 'assets/IMG/jewel-purple.png', 64,48);
 	};
 
 	Jewel.prototype.update = function(){
